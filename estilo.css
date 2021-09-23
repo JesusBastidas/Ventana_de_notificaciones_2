@@ -1,0 +1,38 @@
+body {
+    background-color: gray;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.notificacion {
+    background-color: white;
+    width: 300px;
+    position: fixed;
+    border-radius: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    right: 20px;
+    top: 20px;
+    padding-bottom: 15px;
+    box-shadow: 5px 5px 18px 0px #97979a;
+}
+
+.titulo_notificacion {
+    background-color: crimson;
+    color: white;
+    border-radius: 30px 30px 0 0;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.titulo_notificacion, .text_notificacion {
+    padding: 15px;
+    
+}
+.boton {
+    cursor: pointer;
+    letter-spacing: 0.100em;
+    text-transform: uppercase;
+    padding: 8px 10px;
+    border-radius: 15px;
+}
